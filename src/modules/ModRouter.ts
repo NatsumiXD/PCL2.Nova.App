@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
-import ModEventBus from "./ModEventBus.ts";
+import ModEventBus from "./ModEventBus";
 
 const router = createRouter({
     history: createWebHistory(),
